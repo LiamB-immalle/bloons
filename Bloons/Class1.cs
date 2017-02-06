@@ -32,9 +32,29 @@ namespace Bloons
             x = x + xStep;
             UpdateEllipse();
         }
-        public void ChangeSize(int change)
+        public void MoveLeft(int xStep)
+        {
+            x = x - xStep;
+            UpdateEllipse();
+        }
+        public void MoveUp(int yStep)
+        {
+            y = y - yStep;
+            UpdateEllipse();
+        }
+        public void MoveDown(int yStep)
+        {
+            y = y + yStep;
+            UpdateEllipse();
+        }
+        public void Bigger(int change)
         {
             d = d + change;
+            UpdateEllipse();
+        }
+        public void Smaller(int change)
+        {
+            d = d - change;
             UpdateEllipse();
         }
         public void DisplayOn(Canvas canvas)

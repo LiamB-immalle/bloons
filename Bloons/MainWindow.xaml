@@ -8,11 +8,12 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="219" Margin="152,100,0,0" VerticalAlignment="Top" Width="365"/>
-        <Button x:Name="display" Content="Display X" HorizontalAlignment="Left" Margin="43,60,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="move" Content="Move" HorizontalAlignment="Left" Margin="43,85,0,0" VerticalAlignment="Top" Width="75" Click="move_Click"/>
+        <Button x:Name="Right" Content="Right" HorizontalAlignment="Left" Margin="266,30,0,0" VerticalAlignment="Top" Width="75" Click="right_Click"/>
         <Button x:Name="grow" Content="Grow" HorizontalAlignment="Left" Margin="43,110,0,0" VerticalAlignment="Top" Width="75" Click="grow_Click"/>
-        <Label x:Name="label" Content="" HorizontalAlignment="Left" Margin="152,49,0,0" VerticalAlignment="Top" Width="63" Height="31" Background="Red"/>
-        <Button x:Name="button" Content="Change X" HorizontalAlignment="Left" Margin="403,60,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Down" Content="Down" HorizontalAlignment="Left" Margin="191,30,0,0" VerticalAlignment="Top" Width="75" Click="down_Click"/>
+        <Button x:Name="Left" Content="Left" HorizontalAlignment="Left" Margin="116,30,0,0" VerticalAlignment="Top" Width="75" Click="left_Click"/>
+        <Button x:Name="Up" Content="Up" HorizontalAlignment="Left" Margin="191,10,0,0" VerticalAlignment="Top" Width="75" Click="up_Click"/>
+        <Button x:Name="Shrink" Content="Shrink" HorizontalAlignment="Left" Margin="43,130,0,0" VerticalAlignment="Top" Width="75" Click="shrink_Click"/>
 
     </Grid>
 </Window>
